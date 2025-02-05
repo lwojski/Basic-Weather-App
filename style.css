@@ -1,5 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.widget {
+    height: 500px;
+    width: 400px;
+    background: rgb(5, 75, 135);
+    border-radius: 10px;
+}
+
+#widget-header {
+    padding: 15px 0px 15px 15px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#widget-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    border-top: 2px solid white;
+    color: white;
 }
